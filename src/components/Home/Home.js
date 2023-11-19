@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 import axios from "axios";
 
-import DeleteIcon from "@material-ui/icons/Delete";
-
 const Home = () => {
     const [noteList, setNotes] = useState([]);
 
@@ -55,7 +53,7 @@ const Home = () => {
                                 </div>
                                 <Link to={`/deletetask/${note._id}`}>
                                     <span className="DelIcon">
-                                        <DeleteIcon />
+                                        delete
                                     </span>
                                 </Link>
                             </div>
