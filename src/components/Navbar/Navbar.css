@@ -1,0 +1,81 @@
+.Navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(245, 245, 248);
+    color: rgb(11, 11, 43);
+    /* color: rgb(96, 197, 255); */
+    height: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.NavTitle {
+    text-decoration: none;
+    color: rgb(11, 11, 43);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Titletext {
+    margin-left: 30px;
+    font-weight: lighter;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.NavRouters {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(11, 11, 43);
+}
+
+.routes {
+    margin: 0px 17px;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.routes:hover {
+    text-decoration: underline;
+}
+
+.NavBtns {
+    display: flex;
+    flex-direction: row;
+}
+
+.CreateNote {
+    background-color:rgb(44, 196, 44);
+    /* background-color: rgb(96, 197, 255); */
+    height: 30px;
+    width: 90px;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.CreateNote:hover {
+    background: none;
+    color: rgb(11, 11, 43);
+    /* color: rgb(96, 197, 255); */
+    border: 2px solid rgb(11, 11, 43);
+    /* border: 2px solid rgb(96, 197, 255); */
+}
+
+.DelAccountBtn {
+    width: 130px;
+    background-color: rgb(194, 35, 35);
+}
+
+.DelAccountBtn:hover {
+    background: none;
+    color: rgb(255, 62, 62);
+    border: 2px solid rgb(255, 62, 62);
+}
